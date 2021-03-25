@@ -6,6 +6,9 @@ if BOARD_AIRPORT_SHUTTLE
 config BOARD
 	default "airport_shuttle"
 
+config ZMK_KEYBOARD_NAME
+	default "Airport Shuttle"
+	
 if USB
 
 config USB_NRFX
