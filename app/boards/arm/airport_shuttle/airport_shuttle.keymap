@@ -10,13 +10,13 @@
 // -----------------------------------------------------------------------------------------
 // |  ESC  |  Q   |  W   |  E   |  R   |  T   |   Y   |  U    |  I   |  O   |   P   | BSPC  |
 // |  TAB  |  A   |  S   |  D   |  F   |  G   |   H   |  J    |  K   |  L   |   ;   |  RET    |
-// | SHIFT |  Z   |  X   |  C   |  V   |  B   |   N   |  M    |  ,   |  .   |   /   |  LWR  |
-// | LCTRL | LGUI | LALT | ---  | ---- |     SPACE    |  ---- | ---- | RGUI | RALT  |  RCTRL |
+// | SHIFT |  Z   |  X   |  C   |  V   |  B   |   N   |  M    |  ,   |  .   |   /   |  MT RSHFT RET  |
+// | LCTRL | LGUI | LALT | ---  | MT MO2 SPC |     SPACE    |  ---- | ---- | RGUI | RALT  |  RCTRL |
       bindings = <
   &kp ESC      &kp Q    &kp W &kp E &kp R &kp T  &kp Y   &kp U  &kp I    &kp O   &kp P    &kp BKSP
-  &kp TAB &kp A    &kp S &kp D &kp F &kp G  &kp H   &kp J  &kp K    &kp L   &kp SCLN &kp RET
-  &kp LSHFT     &kp Z    &kp X &kp C &kp V &kp B  &kp N   &kp M  &kp CMMA &kp DOT &kp SLASH &mo 2
-  &kp LCTRL     &kp LALT &mo 1 &trans &trans &kp SPC &trans &kp RGUI &kp RALT &kp RCTRL
+  &kp TAB &kp A    &kp S &kp D &kp F &kp G  &kp H   &kp J  &kp K    &kp L   &kp SEMI &kp QUOTE
+  &kp LSHFT     &kp Z    &kp X &kp C &kp V &kp B  &kp N   &kp M  &kp CMMA &kp DOT &kp SLASH &mt RSHFT RET
+  &kp LCTRL     &kp LALT &mo 1 &trans &mt &mo 2 SPC &kp SPC &trans &kp RGUI &kp RALT &kp RCTRL
       >;
     };
 
