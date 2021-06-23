@@ -27,7 +27,7 @@
 // |  trn  |  BT CLR   |  BT 0   |  trn   |  trn   |  trn   |   trn   |  \    |  trn  |  trn  |   trn   |  trn   |
 // |  trn  |  trn | trns | ---  | ---- |     trns     |  ---- | ---- | RGUI | RALT  |  RCTRL |
       bindings = <
-      &trans &kp NUM_1 &kp NUM_2 &kp NUM_3 &kp NUM_4 &kp NUM_5 &kp NUM_6 &kp NUM_7 &kp NUM_8 &kp NUM_9 &kp NUM_0 &trans
+      &kp GRAVE &kp NUM_1 &kp NUM_2 &kp NUM_3 &kp NUM_4 &kp NUM_5 &kp NUM_6 &kp NUM_7 &kp NUM_8 &kp NUM_9 &kp NUM_0 &trans
       &trans &kp LEFT &kp DOWN &kp UP &kp RIGHT &kp MINUS &kp EQUAL &kp LBKT &kp RBKT &kp SQT &trans &trans
       &trans &kp C_VOL_DN &kp C_VOL_UP &kp C_PP &trans &trans &trans &kp BSLH &trans &trans &trans &trans
       &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
@@ -36,7 +36,7 @@
 
     lower_layer {
       bindings = <
-      &trans &kp EXCL &kp AT &kp POUND &kp DLLR &kp PRCNT &kp CARET &kp AMPS &kp STAR &kp LPAR &kp RPAR &trans
+      &kp TILDE &kp EXCL &kp AT &kp POUND &kp DLLR &kp PRCNT &kp CARET &kp AMPS &kp STAR &kp LPAR &kp RPAR &trans
       &trans &trans &trans &trans &trans &kp UNDER &kp PLUS &kp LBKT &kp RBKT &kp DQT &kp COLON &trans
       &bt BT_CLR &bt BT_SEL 0 &trans &trans &trans &trans &trans &kp PIPE &trans &trans &trans &trans
       &bootloader &reset &trans &trans &trans &trans &trans &trans &trans &trans
